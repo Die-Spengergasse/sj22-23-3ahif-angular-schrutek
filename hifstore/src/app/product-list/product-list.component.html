@@ -1,0 +1,11 @@
+<p>product-list works!</p>
+
+<spg-category-list></spg-category-list>
+
+<hr>
+
+<ul>
+    <li *ngFor="let productItem of getData()">
+        <spg-product [productItem]="productItem"></spg-product>
+    </li>
+</ul>
